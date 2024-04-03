@@ -1,0 +1,303 @@
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 검색 아이콘 스타일 설정 */
+.search-icon a {
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    align-items: center; /* 수직 중앙 정렬을 위한 스타일 */
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    width: 100%;
+}
+
+.malddongimage {
+    margin: auto;
+    display: block;
+    max-width: 100px;
+}
+
+.div1 {
+    font-family: 'SBAggroB';
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* 스타일링 네비게이션 바 */
+.custermer {
+    font-family: 'SBAggroB';
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: #ffffff; /*배경 색상 설정*/
+    color: black; /* 글자 색상 설정 */
+    padding: 10px 20px; /* 내부 여백 설정 */
+}
+
+.custermer a {
+    text-decoration: none; /* 링크 밑줄 제거 */
+    color: palevioletred;
+}
+
+.navbar {
+    font-family: 'SBAggroB';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff; /*배경 색상 설정*/
+    color: black; /* 글자 색상 설정 */
+    padding: 10px 20px; /* 내부 여백 설정 */
+}
+
+.navbar__menu {
+    font-family: 'SBAggroB';
+    list-style: none; /* 리스트 스타일 제거 */
+    display: flex;
+    justify-content: center; /* 가운데 정렬을 위한 설정 */
+    align-items: center;
+    margin: 0; /* 기본 마진 제거 */
+    padding: 0; /* 기본 패딩 제거 */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black; /* 링크 색상 설정 */
+  }
+
+  .navbar li:hover > a {
+    color: palevioletred;
+  }
+
+.navbar__menu li {
+    margin-right: 20px; /* 각 메뉴 항목 간의 간격 설정 */
+    color: palevioletred;
+}
+
+.navbar__menu a {
+    text-decoration: none; /* 링크 밑줄 제거 */
+    /* color: #fff; 메뉴 항목 글자 색상 설정 */
+}
+
+.cover {
+    margin: auto;
+    display: block;
+}
+
+.div2 {
+    font-family: 'SBAggroB';
+    font-size: 45px;
+    color: black;
+    text-align: center;
+    margin-top: 60px; /* 원하는 간격 값으로 조절 */
+    margin-bottom: 10px;
+}
+
+.div3 {
+    font-family: 'SBAggroB';
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 60px; /* 원하는 간격 값으로 조절 */
+}
+
+.div3 a {
+    color: palevioletred; /* 링크 색상을 원하는 색상으로 변경 */
+    text-decoration: none; /* 링크 밑줄 제거 */
+  }
+
+.rectangle.container {
+    width: 100%;
+    overflow: hidden; /* 왼쪽 정렬과 오른쪽 정렬 요소를 포함하기 위해 float를 정리합니다 */
+}
+
+#rectangle1 img {
+    position: absolute;
+    /* float: right; */
+    display: block;
+    max-width: 20%;
+    max-height: 20%;
+    right: 450px;
+}
+
+#rectangle1 {
+    font-family: 'SBAggroB';
+    width: 1200px;
+    height: 200px;
+    background-color: pink;
+    border-radius: 0px 100px 100px 0px;
+    margin-right: 20px;
+    float: left;
+    margin-bottom: 70px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5; /* 텍스트의 세로 정렬을 조절하는 속성 */
+}
+
+#rectangle2 img {
+    position: absolute;
+    display: block;
+    max-width: 20%;
+    max-height: 20%;
+    left: 450px;
+}
+
+#rectangle2 {
+    /*position: absolute;*/
+    font-family: 'SBAggroB';
+    right: 0;
+    width: 1200px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 100px 0px 0px 100px;
+    right: 0;
+    float: right;
+    margin-bottom: 70px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5; /* 텍스트의 세로 정렬을 조절하는 속성 */
+}
+
+#rectangle3 img {
+    position: absolute;
+    display: block;
+    max-width: 20%;
+    max-height: 20%;
+    right: 450px;
+}
+
+#rectangle3 {
+    font-family: 'SBAggroB';
+    width: 1200px;
+    height: 200px;
+    background-color: burlywood;
+    border-radius: 0px 100px 100px 0px;
+    margin-right: 20px;
+    float: left;
+    margin-bottom: 70px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5; /* 텍스트의 세로 정렬을 조절하는 속성 */
+}
+
+#rectangle4 img {
+    position: absolute;
+    display: block;
+    max-width: 20%;
+    max-height: 20%;
+    left: 450px;
+}
+
+#rectangle4 {
+    /*position: absolute;*/
+    font-family: 'SBAggroB';
+    width: 1200px;
+    height: 200px;
+    background-color: skyblue;
+    border-radius: 100px 0px 0px 100px;
+    right: 0; 
+    float: right;
+    margin-bottom: 70px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5; /* 텍스트의 세로 정렬을 조절하는 속성 */
+}
+
+#img1{
+    margin-top: 30px;
+    position: absolute;
+    top: 3100px;
+    left: 0px;
+    max-width: 27%;
+    max-height: 27%;
+}
+
+#img2{
+    margin-top: 30px;
+    position: absolute;
+    top: 3100px;
+    left: 250px;
+    max-width: 27%;
+    max-height: 27%;
+}
+
+#img3{
+    margin-top: 30px;
+    position: absolute;
+    top: 3100px;
+    left: 500px;
+    max-width: 27%;
+    max-height: 27%;
+}
+
+#img4{
+    margin-top: 30px;
+    position: absolute;
+    top: 3100px;
+    left: 754px;
+    max-width: 27%;
+    max-height: 27%;
+}
+
+#img5{
+    margin-top: 30px;
+    position: absolute;
+    top: 3100px;
+    left: 1008px;
+    max-width: 27%;
+    max-height: 27%;
+}
+
+#img6{
+    margin-top: 30px;
+    position: absolute;
+    top: 3100px;
+    left: 1260.75px;
+    max-width: 27%;
+    max-height: 27%;
+}
+
+#bar{
+    position: absolute;
+    top: 3400px;
+    left: 0px;
+    width: 1519px;
+    height: 350px;
+}
+
+.image-container {
+    display: flex;
+    overflow: hidden;
+    animation: slideImages 5s linear infinite;
+  }
+  
+  /* 각 이미지 스타일 설정 */
+  img {
+    /* max-width: 100%;
+    margin-right: 10px;
+    margin-bottom: 10px; */
+    max-width: 100%;
+    margin-right: 0; /* 이미지의 마진을 0으로 설정 */
+  }
